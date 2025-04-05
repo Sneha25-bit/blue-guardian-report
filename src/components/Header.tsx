@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <Shield className="h-8 w-8" />
-            <span className="text-xl font-bold">SafeWatch</span>
+            <span className="text-xl font-bold">Crime Trackers</span>
           </Link>
           
           <nav className="hidden md:flex items-center space-x-6">

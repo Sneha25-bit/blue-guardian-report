@@ -85,7 +85,7 @@ const Index = () => {
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4 md:px-6">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-safewatch-900">How SafeWatch Works</h2>
+              <h2 className="text-3xl font-bold text-safewatch-900">How Crime Trackers Works</h2>
               <p className="text-lg text-gray-600 mt-3 max-w-2xl mx-auto">
                 Our platform makes crime reporting simple, secure, and effective for communities across India.
               </p>
@@ -138,7 +138,7 @@ const Index = () => {
               <div className="space-y-6">
                 <h2 className="text-3xl font-bold text-safewatch-900">Making Communities Safer Together</h2>
                 <p className="text-gray-600">
-                  Since our inception, SafeWatch has helped thousands of citizens report crimes and worked with local authorities to resolve issues quickly and efficiently.
+                  Since our inception, Crime Trackers has helped thousands of citizens report crimes and worked with local authorities to resolve issues quickly and efficiently.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex">

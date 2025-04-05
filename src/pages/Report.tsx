@@ -46,7 +46,7 @@ const Report = () => {
             </div>
             
             <div className="text-center text-sm text-gray-500">
-              <p>Need help? Contact our support team at <a href="mailto:support@safewatch.com" className="text-safewatch-600 hover:underline">support@safewatch.com</a></p>
+              <p>Need help? Contact our support team at <a href="mailto:support@crimetrackers.com" className="text-safewatch-600 hover:underline">support@crimetrackers.com</a></p>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center space-x-2 mb-4">
               <Shield className="h-6 w-6" />
-              <span className="text-xl font-bold">SafeWatch</span>
+              <span className="text-xl font-bold">Crime Trackers</span>
             </div>
             <p className="text-sm text-center md:text-left text-gray-400 max-w-xs">
               India's premier crime reporting platform. Empowering communities with real-time incident tracking, advanced analytics, and collaborative safety solutions.
@@ -57,12 +57,12 @@ const Footer = () => {
               <li>Gaurav - Backend Engineer</li>
               <li>Param - Security Expert</li>
             </ul>
-            <p className="mt-4 text-sm text-gray-400">info@safewatch.com</p>
+            <p className="mt-4 text-sm text-gray-400">info@crimetrackers.com</p>
           </div>
         </div>
 
         <div className="mt-12 pt-6 border-t border-gray-800 text-center text-sm text-gray-400">
-          <p>© 2024 SafeWatch. All rights reserved.</p>
+          <p>© 2024 Crime Trackers. All rights reserved.</p>
           <div className="flex justify-center space-x-6 mt-4">
             <Link to="/privacy-policy" className="hover:text-white">Privacy Policy</Link>
             <Link to="/terms-of-service" className="hover:text-white">Terms of Service</Link>
