@@ -1,5 +1,5 @@
 
-import { Shield } from "lucide-react";
+import { Shield, MapPin, User } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -19,11 +19,19 @@ const Header = () => {
             <Link to="/report" className="text-white hover:text-safewatch-200 transition-colors">
               Report Crime
             </Link>
+            <Link to="/crime-map" className="text-white hover:text-safewatch-200 transition-colors flex items-center gap-1">
+              <MapPin className="h-4 w-4" />
+              Crime Map
+            </Link>
             <Link to="/about" className="text-white hover:text-safewatch-200 transition-colors">
               About Us
             </Link>
-            <Link to="/contact" className="text-white hover:text-safewatch-200 transition-colors">
-              Contact
+            <Link to="/emergency-contacts" className="text-white hover:text-safewatch-200 transition-colors">
+              Emergency Contacts
+            </Link>
+            <Link to="/login" className="flex items-center gap-1 bg-white text-safewatch-900 hover:bg-safewatch-200 transition-colors px-3 py-1 rounded-md">
+              <User className="h-4 w-4" />
+              Login / Sign Up
             </Link>
           </nav>
           
